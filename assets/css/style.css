@@ -1,4 +1,7 @@
 @import 'reset.css';
+@import 'contact.css';
+@import 'footer.css';
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap');
 
 ul {
   display: flex;
@@ -41,7 +44,7 @@ li a:hover {
     background-color: #111;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap');
+
 
 header {
   height: 200vh;
@@ -139,9 +142,4 @@ section h2 {
 
 section p {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-}
-h2{
-  font-size: 20px;
-  font-weight: bold;
-  margin: 15px;
 }
