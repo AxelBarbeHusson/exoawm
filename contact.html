@@ -6,7 +6,8 @@
 
   <title>Terra</title>
   <link rel="stylesheet" href="assets/css/style.css">
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
  
 </head>
 <body>
@@ -26,7 +27,7 @@
 </ul>
 </nav>
 <section class="mainContent">
-    <h1>Contactez-nous</h1>
+    <h1 id="tilteContact">Contactez-nous</h1>
 
     <div class="containt">
         <form action="#"></form>
@@ -37,20 +38,44 @@
         <label for="prenom">Prénom</label>
         <input type="text" id="prenom" name="prenom" placeholder="Ton prenom..">
 
-        <label for="email">mail</label>
+        <label for="email">E-mail</label>
         <input type="email" id="email" name="mail" placeholder="Ton email..">
 
         <label for="sujet">Sujet</label>
         <textarea id="sujet" name="sujet" placeholder="Ecrit ici.." style="height:200px"></textarea>
 
-        <input type="submit" value="Envoyé">
+        <input class="send" type="submit" value="Envoyé">
     </div>
 </section>
+<div class="footer-clean">
+  <footer class="footer-distributed">
 
- <footer>
-    <script src="assets/js/script.js"></script>
+    <div class="footer-right">
+
+      <a href="#"><i class="icon ion-social-instagram"></i></a>
+      <a href="#"><i class="icon ion-social-snapchat"></i></a>
+      <a href="#"><i class="icon ion-social-twitter"></i></a>
+      <a href="#"><i class="icon ion-social-facebook"></i></a>
+
+    </div>
+
+    <div class="footer-left">
+
+      <p class="footer-links">
+        <a class="link-1" href="index.html">Home</a>
+
+        <a href="#">Notre équipe</a>
+
+        <a href="nosOffres.html">Nos offres</a>
+
+        <a href="contact.html">Contact</a>
+      </p>
+
+      <p>Terra &copy; 2015</p>
+    </div>
+
   </footer>
-
+</div>
   
 </body>
 </html>
