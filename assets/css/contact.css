@@ -35,11 +35,7 @@ input[type=submit]:hover {
   text-align: start;
   
 }
-h1 #titleContact{
-  font-weight: bold;
-  text-align: center;
-  margin: 5px;
-}
+
 .send{
   float: right;
 }
